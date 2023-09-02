@@ -1,0 +1,444 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "accessors": {
+        "0_accessor": {
+            "bufferView": "0_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 441,
+            "type": "VEC3",
+            "max": [
+                2912.03662109375,
+                2912.03662109375,
+                0.0
+            ],
+            "min": [
+                -2912.036376953125,
+                -2912.036376953125,
+                0.0
+            ]
+        },
+        "0_accessor_0": {
+            "bufferView": "0_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 441,
+            "type": "VEC3",
+            "max": [
+                6.123234262925839e-17,
+                0.0,
+                1.0
+            ],
+            "min": [
+                6.123234262925839e-17,
+                0.0,
+                1.0
+            ]
+        },
+        "0_accessor_1": {
+            "bufferView": "0_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 441,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        "0_accessor_2": {
+            "bufferView": "0_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 2400,
+            "type": "SCALAR",
+            "max": [
+                440.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "../../download/of465mdr31dn/of465mdr31dn": {
+            "byteLength": 18912,
+            "type": "arraybuffer",
+            "uri": "../../download/of465mdr31dn/of465mdr31dn.bin"
+        }
+    },
+    "bufferViews": {
+        "0_view": {
+            "buffer": "../../download/of465mdr31dn/of465mdr31dn",
+            "byteOffset": 0,
+            "byteLength": 5292,
+            "target": 34962
+        },
+        "0_view_0": {
+            "buffer": "../../download/of465mdr31dn/of465mdr31dn",
+            "byteOffset": 5292,
+            "byteLength": 5292,
+            "target": 34962
+        },
+        "0_view_1": {
+            "buffer": "../../download/of465mdr31dn/of465mdr31dn",
+            "byteOffset": 10584,
+            "byteLength": 3528,
+            "target": 34962
+        },
+        "0_view_2": {
+            "buffer": "../../download/of465mdr31dn/of465mdr31dn",
+            "byteOffset": 14112,
+            "byteLength": 4800,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "OctDiffuse1": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        },
+        "OctDiffuse2": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        },
+        "Octane Material": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        },
+        "Octane Material_material": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "meshes": {
+        "0": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "OctDiffuse1",
+                    "indices": "0_accessor_2",
+                    "attributes": {
+                        "POSITION": "0_accessor",
+                        "NORMAL": "0_accessor_0",
+                        "TEXCOORD_0": "0_accessor_1"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "<3DSRoot>": {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                "Plane",
+                "OctaneLigh",
+                "Camera",
+                "Camera_1",
+                "OctaneSky",
+                "Noise_Fiel",
+                "k_Isolated",
+                "Filter",
+                "Attractor",
+                "Wind",
+                "Gravity",
+                "Scene"
+            ]
+        },
+        "Plane": {
+            "matrix": [
+                5.960464477539063e-8,
+                0.0,
+                -0.9999999403953552,
+                0.0,
+                -0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999999403953552,
+                0.0,
+                5.960464477539063e-8,
+                0.0,
+                -4702.6953125,
+                115.16854858398438,
+                -2.2411724711311754e-13,
+                1.0
+            ],
+            "meshes": [
+                "0"
+            ]
+        },
+        "OctaneLigh": {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -88.1862564086914,
+                -200.94679260253907,
+                2.097316026687622,
+                1.0
+            ]
+        },
+        "Camera": {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1836.0361328125,
+                -796.8797607421875,
+                221.393310546875,
+                1.0
+            ]
+        },
+        "Camera_1": {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                272.96051025390627,
+                -112.96177673339844,
+                125.94049072265625,
+                1.0
+            ]
+        },
+        "OctaneSky": {},
+        "Noise_Fiel": {},
+        "k_Isolated": {},
+        "Filter": {},
+        "Attractor": {
+            "matrix": [
+                1.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                99.55829620361328,
+                1.0
+            ]
+        },
+        "Wind": {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                5.960464477539063e-8,
+                0.9999999403953552,
+                0.0,
+                0.0,
+                -0.9999999403953552,
+                5.960464477539063e-8,
+                0.0,
+                0.0,
+                0.0,
+                99.32276916503906,
+                1.0
+            ]
+        },
+        "Gravity": {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                5.960464477539063e-8,
+                0.9999999403953552,
+                0.0,
+                0.0,
+                -0.9999999403953552,
+                5.960464477539063e-8,
+                0.0,
+                0.0,
+                100.0980224609375,
+                86.42839050292969,
+                1.0
+            ]
+        },
+        "Scene": {
+            "children": [
+                "Meshers"
+            ]
+        },
+        "Meshers": {
+            "children": [
+                "Mesher"
+            ]
+        },
+        "Mesher": {}
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "<3DSRoot>"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
